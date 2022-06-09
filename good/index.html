@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>Project</title>
+  <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" />
+<!--[if lt IE 8]><style type="text/css">.container .gallery{padding-bottom:28px;}</style><![endif]-->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script src="scripts/cufon-yui.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#topnav a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 100);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 100);
+        return false;
+    });
+	$("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'}); 
+});
+</script>
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div class="wrapper">
+  <div id="header">
+    <h1>보여주다.</h1>
+    <div id="topbar" class="clear">
+      <ul id="topnav">
+        <li><a href="#mywork">찍다.</a></li>
+        <li><a href="#content">끄적이다.</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="services" class="services clear">
+      <!-- Box 1 -->
+      <div class="box">
+        <h2>남기다.</h2>
+        <p>놓치는 아름다움이 많다. 사진을 찍겠다는 첫 마음가짐은, 무언가라도 남기자는 마인드였다. 추억이든 안좋은 기억이든 남겨두면 언젠간 쓰이겠지.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="mywork" class="gallery clear">
+      <ul>
+        <li><a href="images/placeholders/cherryblossom_.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/cherryblossom.jpg" alt="" /></a></li>
+        <li><a href="images/placeholders/tower_.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/tower.jpg" alt="" /></a></li>
+        <li><a href="images/placeholders/hangang.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/hangang_.jpg" alt="" /></a></li>
+        <li><a href="images/placeholders/pond.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/pond_.jpg" alt="" /></a></li>
+        <li><a href="images/placeholders/wangsipri_.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/wangsipri.jpg" alt="" /></a></li>
+        <li><a href="images/placeholders/tree.jpg" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/tree_.jpg" alt="" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="content">
+      <h2>끄적이다.</h2>
+      <p>흔적을 남긴다는 말이 굉장히 와닿았다. 그냥 지나갈수도 있고, 묻힐수도 있는 나라는 존재를 각인시키려면, 보여줘야한다. 내가 무엇을 하고 있는지, 내가 어떤 사람인지.</p>
+      <p>첫 걸음이 내가 남겨둔 것들을 보여준다는 생각이었고, 이 또한 미흡하다. 더 아름다운 추억을 만들어, 세상에 티끌만큼의 흔적을 남기고 싶다.</p>
+    </div>
+    <!-- / ### -->
+    <div id="column">
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="backtotop"><a href="#header" class="topOfPage">..</a></div>
+    <!-- / ### -->
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>
